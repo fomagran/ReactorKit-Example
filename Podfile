@@ -7,5 +7,6 @@ target 'ReactorKit Example' do
 
   # Pods for ReactorKit Example
 pod 'ReactorKit'
+pod 'RxCocoa'
 
 end
