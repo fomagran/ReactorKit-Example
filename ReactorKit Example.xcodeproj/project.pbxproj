@@ -65,16 +65,24 @@
 		04FB81EC267AD9F1000BCDB0 /* ReactorKit Example */ = {
 			isa = PBXGroup;
 			children = (
+				04FB8203267AEF9D000BCDB0 /* Counter */,
 				04FB81ED267AD9F1000BCDB0 /* AppDelegate.swift */,
 				04FB81EF267AD9F1000BCDB0 /* SceneDelegate.swift */,
-				04FB81F1267AD9F1000BCDB0 /* CounterViewController.swift */,
 				04FB81F3267AD9F1000BCDB0 /* Main.storyboard */,
 				04FB81F6267AD9F2000BCDB0 /* Assets.xcassets */,
 				04FB81F8267AD9F2000BCDB0 /* LaunchScreen.storyboard */,
 				04FB81FB267AD9F2000BCDB0 /* Info.plist */,
-				04FB8201267ADA94000BCDB0 /* CounterViewReactor.swift */,
 			);
 			path = "ReactorKit Example";
+			sourceTree = "<group>";
+		};
+		04FB8203267AEF9D000BCDB0 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				04FB81F1267AD9F1000BCDB0 /* CounterViewController.swift */,
+				04FB8201267ADA94000BCDB0 /* CounterViewReactor.swift */,
+			);
+			path = Counter;
 			sourceTree = "<group>";
 		};
 		EA618F6D356C122DD19F6590 /* Frameworks */ = {
